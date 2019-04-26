@@ -1,2 +1,4 @@
-so /etc/vimrc
+if filereadable("/etc/vimrc")
+    so /etc/vimrc
+endif
 set mouse=
